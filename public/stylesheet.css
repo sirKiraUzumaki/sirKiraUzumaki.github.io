@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #1d1f20;
+  background-image:
+    radial-gradient(
+      circle at top center,
+      #323236,
+      #111111
+    );
+  text-align: center;
+  font-family: 'Butterfly Kids', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.main {
+    font-family: fantasy;
+    font-size: 50px;
+    color: aqua;
+    margin-bottom: 2%;
+}
+
+.md {
+    margin-top: 3%;
+    font-size: 40px;
+    animation-name: mda;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mda {
+    0% { transform: translate(0,  0px); color: #FDC7D7}
+    50%  { transform: translate(0, 15px); color: #FF9DE6}
+    100%   { transform: translate(0, -0px); color: #A5D8F3}
+}
