@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   background-color: #1d1f20;
   background-image:
     radial-gradient(
@@ -17,8 +16,7 @@ body {
 }
 
 .main {
-    font-family: fantasy;
-    font-size: 50px;
+    font-size: 6vw;
     color: aqua;
     margin-bottom: 2%;
 }
@@ -36,4 +34,10 @@ body {
     0% { transform: translate(0,  0px); color: #FDC7D7}
     50%  { transform: translate(0, 15px); color: #FF9DE6}
     100%   { transform: translate(0, -0px); color: #A5D8F3}
+}
+
+li {
+  margin-top: 6px;
+  text-align: left;
+  font-size:22px;
 }

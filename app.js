@@ -17,6 +17,10 @@ app.get("/", (request, response) => {
   response.sendFile(__dirname + "/index.html");
 });
 
+app.get("/what_if_trailer_roles", (request, response) => {
+  response.sendFile(__dirname + "/trailer-roles.html")
+});
+
 // listen for requests :)
 const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port http://localhost:" + listener.address().port);
