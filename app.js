@@ -17,6 +17,10 @@ app.get("/", (request, response) => {
   response.sendFile(__dirname + "/index.html");
 });
 
+aap.get("/covid", (request, response) => {
+  response.sendFile(__dirname + "/Covid/index.html");
+});
+
 app.get("/what_if_trailer_roles", (request, response) => {
   response.sendFile(__dirname + "/trailer-roles.html")
 });
